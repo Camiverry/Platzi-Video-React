@@ -1,0 +1,44 @@
+.carousel {
+  width: 100%;
+  overflow: scroll;
+  padding: 30px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.carousel::-webkit-scrollbar {
+  height: 10px;
+}
+
+carousel::-webkit-scrollbar-track {
+  background: #8F57FD; 
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px; 
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5); ; 
+}
+
+.carousel::-webkit-scrollbar-corner {
+  display: none;
+  background: linear-gradient(#3b6978, #204051, #3b6978); 
+}
+
+.carousel__container {
+  white-space: nowrap;
+  margin: 70px 0px;
+  padding-bottom: 10px;
+}
+
+.carousel__container:hover .carousel-item:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.carousel__container:hover .carousel-item {
+  opacity: 0.3;
+}

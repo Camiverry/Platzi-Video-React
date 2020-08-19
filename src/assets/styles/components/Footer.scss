@@ -1,0 +1,21 @@
+.footer {
+  margin-top: auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer a {
+  color: dimgray;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  padding-left: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

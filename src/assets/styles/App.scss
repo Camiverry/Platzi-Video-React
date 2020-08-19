@@ -1,5 +1,38 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
+
 body {
-  margin: 0;
-  background-color: burlywood;
-  color: pink;
+  /*  background-color: #8E57FD; */
+ /*   background-color: #204051; */
+ background: $main-color;
+ margin: 0;
+ font-family: $theme-font;
+ }
+ 
+ body::-webkit-scrollbar {
+   height: 12px;
+   width: 12px;
+ }
+ 
+ body::-webkit-scrollbar-track {
+   background: linear-gradient(#3b6978, #204051, #3b6978);  
+ }
+ 
+ body::-webkit-scrollbar-thumb {
+   background: rgba(255, 255, 255, 0.5);
+   border-radius: 25px; 
+ }
+ 
+ body::-webkit-scrollbar-thumb:hover {
+   background: rgba(255, 255, 255, 0.8); ; 
+ }
+ 
+ body::-webkit-scrollbar-corner {
+   display: none;
+   background: linear-gradient(#3b6978, #204051, #3b6978); 
+ }
+ 
+* {
+  box-sizing: border-box;
 }
