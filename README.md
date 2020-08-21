@@ -1,2 +1,2 @@
 # Platzi-Video-React
-A pltaform of video using React
+A customized video platform project using React technology
