@@ -6,6 +6,15 @@
   justify-content: center;
 }
 
+.main .isHome {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
 .main__title {
   color: white;
   font-size: 25px;
@@ -13,7 +22,10 @@
 
 .input {
   background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid white;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
   border-radius: 25px;
   color: white;
   font-family: 'Muli', sans-serif;
@@ -22,6 +34,7 @@
   padding: 0px 20px;
   width: 70%;
   outline: none;
+  height:20px ;
 }
 
 ::placeholder {

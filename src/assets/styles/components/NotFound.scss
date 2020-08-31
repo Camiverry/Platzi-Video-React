@@ -1,0 +1,67 @@
+.error {
+  background: linear-gradient(#086972, #87dfd6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  min-height: calc(100vh - 100px);
+}
+
+.error__not-found {
+  color: white;
+  padding: 60px 68px 40px;
+  min-height: 200px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.error__not-found h1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.error__not-found--title {
+  width: 100px;
+  height: 100px;
+}
+
+.error__not-found img {
+  width: -60px;
+  height: -60px;
+  position: relative;
+  animation-name: ghost ;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ghost {
+  0% {left:-100px; top:0px;}
+  25% {left:200px; top:0px;}
+  50% {left:200px; top:-200px;}
+  75% {left:-100px; top:-200px;}
+  100% {left:-100px; top:0px;}
+}
+
+.error__not-found p {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  margin: 10px 0px;;
+}
+
+.error__not-found a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error__not-found a:hover {
+  text-decoration: underline;
+}
